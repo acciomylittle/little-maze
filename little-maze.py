@@ -422,8 +422,7 @@ def check_items(the_grid, row, col):
 
 
 if __name__ == '__main__':
-    map_file_name = input('What map do you want to load? ')
-    the_game_map = load_map(map_file_name)
+    the_game_map = load_map(third_map.map)
     if the_game_map:
         # calls make_move
         make_move(the_game_map)
